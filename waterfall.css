@@ -1,0 +1,29 @@
+*{margin:0;
+  padding:0;
+}
+#waterfall{
+	position:relative;
+}
+.WFBox{
+	padding:15px 0 0 15px;
+	float:left;
+}
+.pics{
+	overflow:hidden;
+	width:165px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+	box-shadow:0 0 5px #ccc;
+}
+.pics img{
+	width:165px;
+	height:auto;
+}
+.pics img:hover{
+	transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);	/* IE 9 */
+	-webkit-transform: scale(1.5,1.5);	/* Safari 和 Chrome */
+	-o-transform: scale(1.5,1.5);	/* Opera */
+	-moz-transform: scale(1.5,1.5);
+}
